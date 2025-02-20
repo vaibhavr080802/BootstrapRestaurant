@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+.hero video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.hero .btn {
+margin-top: 80px; 
+}
+.about-section {
+padding: 50px 0;
+text-align: center;
+}
+
+.navbar {
+background-color: palevioletred !important;
+}
+
+.menu-item img {
+width: 80%;
+height: 300px; 
+object-fit: cover;
+}
+
+.menu-item {
+margin-bottom: 30px; 
+}
+.order-btn{
+background-color: black;
+color: white;
+transition: background-color, 0.3s ease;
+}
+
+.order-btn:hover{
+background-color: brown;
+transform: scale(1.3);
+}
+
+#about{
+background-color: cadetblue;
+}
+#fb{
+text-decoration: none;
+}
+#inst{
+text-decoration: none;
+}
+#twit{
+text-decoration: none;
+}
